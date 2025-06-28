@@ -1,4 +1,4 @@
-# 🔐 Task 4: Create a Strong Password and Evaluate Its Strength
+# 🔐 Task 6: Create a Strong Password and Evaluate Its Strength
 
 ## 🎯 Objective
 To understand what makes a strong password, test it using online tools, and learn about password-related security threats.
