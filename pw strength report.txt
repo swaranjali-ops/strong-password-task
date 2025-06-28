@@ -1,0 +1,65 @@
+#  Password Strength Analysis Report
+
+##  Tested Passwords and Results
+
+| Password             | Score (%) | Strength  | Estimated Time to Crack | Feedback                                   |
+|----------------------|-----------|-----------|--------------------------|--------------------------------------------|
+| abc123               | 32%       | Weak      | Instant                  | Too short, uses only lowercase and digits. |
+| Abc@1234             | 41%       | Good      | 3 minutes                | Added capital & symbol, still short.       |
+| A#cT9zP@2            | 60%       | Strong    | 3 years                  | Strong mix of all character types.         |
+| Sw@r@nj@l!2025*      | 88%       | Very Strong | 22 trillion years     | Long, complex, uses name in smart way.     |
+| 2F#kLs@8w$qXpT1!     | 100%      | Very Strong | Infinite (theoretical)   | Randomized, 16+ characters, max complexity.|
+
+---
+
+##  Observations
+
+- **Short passwords** are easily guessed even if they have numbers or symbols.
+- Passwords that combine **uppercase, lowercase, numbers, and special characters** are significantly stronger.
+- Adding **length** increases security exponentially.
+- Personalized but unique passwords like `Sw@r@nj@l!2025*` are harder to guess but still memorable.
+- **Random complex passwords** are safest, but harder to remember without a password manager.
+
+---
+
+##  What Makes a Password Strong?
+
+- At least **12 characters long**
+- Includes:
+  - Uppercase letters (`A-Z`)
+  - Lowercase letters (`a-z`)
+  - Numbers (`0-9`)
+  - Special characters (`@, #, $, !, *`)
+- Avoids:
+  - Dictionary words
+  - Common patterns (`123`, `abc`, `password`)
+  - Personal info like name, birth year
+
+---
+
+##  Password Attack Types
+
+| Attack Type          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Brute Force**      | Tries all possible combinations. Very effective on short/weak passwords.    |
+| **Dictionary Attack**| Uses a list of common words or passwords to guess.                          |
+| **Phishing**         | Tricks users into giving their password voluntarily.                        |
+| **Credential Stuffing** | Tries previously leaked passwords on other accounts.                     |
+
+---
+
+##  Final Recommendations
+
+- Use **password managers** to generate and store strong passwords.
+- Never reuse the same password across sites.
+- Change passwords regularly, especially after data breaches.
+- Always enable **two-factor authentication (2FA)** where available.
+
+---
+
+##  Screenshots
+
+*See `/screenshots/` folder for actual test results from Password Meter*
+
+
+---
